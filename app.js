@@ -27,3 +27,15 @@ app.get("/register", (req, res)=>{
   res.render("register");
 });
 
+app.get("/create_ride", (req,res)=>{
+  res.render("create_ride");
+});
+
+app.get("/search_ride", (req,res)=>{
+  res.render("search_ride");
+})
+
+app.get("/rider",(req,res)=>{
+  res.render("rider");
+})
+
